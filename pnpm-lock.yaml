@@ -14,6 +14,9 @@ importers:
       '@medusajs/cli':
         specifier: ^2.22.2
         version: 2.22.2(@types/node@20.19.43)
+      '@medusajs/file-s3':
+        specifier: 2.22.2
+        version: 2.22.2(@medusajs/framework@2.22.2(@medusajs/cli@2.22.2(@types/node@20.19.43))(@types/node@20.19.43)(ioredis@5.11.1)(vite@5.4.21(@types/node@20.19.43))(zod@4.6.6))
       '@medusajs/framework':
         specifier: ^2.22.2
         version: 2.22.2(@medusajs/cli@2.22.2(@types/node@20.19.43))(@types/node@20.19.43)(ioredis@5.11.1)(vite@5.4.21(@types/node@20.19.43))(zod@4.6.6)
